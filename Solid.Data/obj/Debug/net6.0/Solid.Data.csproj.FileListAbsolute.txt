@@ -13,3 +13,22 @@ C:\Users\user1\Desktop\חיהלה\תכנות\שנה ב\דוטנט\פרויקט �
 C:\Users\user1\Desktop\חיהלה\תכנות\שנה ב\דוטנט\פרויקט בנק\bank-api-project\Solid.Data\obj\Debug\net6.0\refint\Solid.Data.dll
 C:\Users\user1\Desktop\חיהלה\תכנות\שנה ב\דוטנט\פרויקט בנק\bank-api-project\Solid.Data\obj\Debug\net6.0\Solid.Data.pdb
 C:\Users\user1\Desktop\חיהלה\תכנות\שנה ב\דוטנט\פרויקט בנק\bank-api-project\Solid.Data\obj\Debug\net6.0\ref\Solid.Data.dll
+Y:\הגשות\דוטנט\‏‏group 4\פרויקט 3 שכבות\חיהלה אברמוביץ\bank-api-project\Solid.Data\bin\Debug\net6.0\Solid.Data.deps.json
+Y:\הגשות\דוטנט\‏‏group 4\פרויקט 3 שכבות\חיהלה אברמוביץ\bank-api-project\Solid.Data\bin\Debug\net6.0\Solid.Data.runtimeconfig.json
+Y:\הגשות\דוטנט\‏‏group 4\פרויקט 3 שכבות\חיהלה אברמוביץ\bank-api-project\Solid.Data\bin\Debug\net6.0\Solid.Data.dll
+Y:\הגשות\דוטנט\‏‏group 4\פרויקט 3 שכבות\חיהלה אברמוביץ\bank-api-project\Solid.Data\bin\Debug\net6.0\Solid.Data.pdb
+Y:\הגשות\דוטנט\‏‏group 4\פרויקט 3 שכבות\חיהלה אברמוביץ\bank-api-project\Solid.Data\bin\Debug\net6.0\Solid.Core.dll
+Y:\הגשות\דוטנט\‏‏group 4\פרויקט 3 שכבות\חיהלה אברמוביץ\bank-api-project\Solid.Data\bin\Debug\net6.0\Solid.Core.pdb
+Y:\הגשות\דוטנט\‏‏group 4\פרויקט 3 שכבות\חיהלה אברמוביץ\bank-api-project\Solid.Data\obj\Debug\net6.0\Solid.Data.csproj.AssemblyReference.cache
+Y:\הגשות\דוטנט\‏‏group 4\פרויקט 3 שכבות\חיהלה אברמוביץ\bank-api-project\Solid.Data\obj\Debug\net6.0\Solid.Data.GeneratedMSBuildEditorConfig.editorconfig
+Y:\הגשות\דוטנט\‏‏group 4\פרויקט 3 שכבות\חיהלה אברמוביץ\bank-api-project\Solid.Data\obj\Debug\net6.0\Solid.Data.AssemblyInfoInputs.cache
+Y:\הגשות\דוטנט\‏‏group 4\פרויקט 3 שכבות\חיהלה אברמוביץ\bank-api-project\Solid.Data\obj\Debug\net6.0\Solid.Data.AssemblyInfo.cs
+Y:\הגשות\דוטנט\‏‏group 4\פרויקט 3 שכבות\חיהלה אברמוביץ\bank-api-project\Solid.Data\obj\Debug\net6.0\Solid.Data.csproj.CoreCompileInputs.cache
+Y:\הגשות\דוטנט\‏‏group 4\פרויקט 3 שכבות\חיהלה אברמוביץ\bank-api-project\Solid.Data\obj\Debug\net6.0\Solid.Data.csproj.CopyComplete
+Y:\הגשות\דוטנט\‏‏group 4\פרויקט 3 שכבות\חיהלה אברמוביץ\bank-api-project\Solid.Data\obj\Debug\net6.0\Solid.Data.dll
+Y:\הגשות\דוטנט\‏‏group 4\פרויקט 3 שכבות\חיהלה אברמוביץ\bank-api-project\Solid.Data\obj\Debug\net6.0\refint\Solid.Data.dll
+Y:\הגשות\דוטנט\‏‏group 4\פרויקט 3 שכבות\חיהלה אברמוביץ\bank-api-project\Solid.Data\obj\Debug\net6.0\Solid.Data.pdb
+Y:\הגשות\דוטנט\‏‏group 4\פרויקט 3 שכבות\חיהלה אברמוביץ\bank-api-project\Solid.Data\obj\Debug\net6.0\Solid.Data.genruntimeconfig.cache
+Y:\הגשות\דוטנט\‏‏group 4\פרויקט 3 שכבות\חיהלה אברמוביץ\bank-api-project\Solid.Data\obj\Debug\net6.0\ref\Solid.Data.dll
+C:\Users\user1\Desktop\חיהלה\תכנות\שנה ב\דוטנט\פרויקט בנק\bank-api-project\Solid.Data\bin\Debug\net6.0\Solid.Data.runtimeconfig.json
+C:\Users\user1\Desktop\חיהלה\תכנות\שנה ב\דוטנט\פרויקט בנק\bank-api-project\Solid.Data\obj\Debug\net6.0\Solid.Data.genruntimeconfig.cache

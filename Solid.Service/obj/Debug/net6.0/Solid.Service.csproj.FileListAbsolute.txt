@@ -13,3 +13,18 @@ C:\Users\user1\Desktop\חיהלה\תכנות\שנה ב\דוטנט\פרויקט �
 C:\Users\user1\Desktop\חיהלה\תכנות\שנה ב\דוטנט\פרויקט בנק\bank-api-project\Solid.Service\obj\Debug\net6.0\refint\Solid.Service.dll
 C:\Users\user1\Desktop\חיהלה\תכנות\שנה ב\דוטנט\פרויקט בנק\bank-api-project\Solid.Service\obj\Debug\net6.0\Solid.Service.pdb
 C:\Users\user1\Desktop\חיהלה\תכנות\שנה ב\דוטנט\פרויקט בנק\bank-api-project\Solid.Service\obj\Debug\net6.0\ref\Solid.Service.dll
+Y:\הגשות\דוטנט\‏‏group 4\פרויקט 3 שכבות\חיהלה אברמוביץ\bank-api-project\Solid.Service\bin\Debug\net6.0\Solid.Service.deps.json
+Y:\הגשות\דוטנט\‏‏group 4\פרויקט 3 שכבות\חיהלה אברמוביץ\bank-api-project\Solid.Service\bin\Debug\net6.0\Solid.Service.dll
+Y:\הגשות\דוטנט\‏‏group 4\פרויקט 3 שכבות\חיהלה אברמוביץ\bank-api-project\Solid.Service\bin\Debug\net6.0\Solid.Service.pdb
+Y:\הגשות\דוטנט\‏‏group 4\פרויקט 3 שכבות\חיהלה אברמוביץ\bank-api-project\Solid.Service\bin\Debug\net6.0\Solid.Core.dll
+Y:\הגשות\דוטנט\‏‏group 4\פרויקט 3 שכבות\חיהלה אברמוביץ\bank-api-project\Solid.Service\bin\Debug\net6.0\Solid.Core.pdb
+Y:\הגשות\דוטנט\‏‏group 4\פרויקט 3 שכבות\חיהלה אברמוביץ\bank-api-project\Solid.Service\obj\Debug\net6.0\Solid.Service.csproj.AssemblyReference.cache
+Y:\הגשות\דוטנט\‏‏group 4\פרויקט 3 שכבות\חיהלה אברמוביץ\bank-api-project\Solid.Service\obj\Debug\net6.0\Solid.Service.GeneratedMSBuildEditorConfig.editorconfig
+Y:\הגשות\דוטנט\‏‏group 4\פרויקט 3 שכבות\חיהלה אברמוביץ\bank-api-project\Solid.Service\obj\Debug\net6.0\Solid.Service.AssemblyInfoInputs.cache
+Y:\הגשות\דוטנט\‏‏group 4\פרויקט 3 שכבות\חיהלה אברמוביץ\bank-api-project\Solid.Service\obj\Debug\net6.0\Solid.Service.AssemblyInfo.cs
+Y:\הגשות\דוטנט\‏‏group 4\פרויקט 3 שכבות\חיהלה אברמוביץ\bank-api-project\Solid.Service\obj\Debug\net6.0\Solid.Service.csproj.CoreCompileInputs.cache
+Y:\הגשות\דוטנט\‏‏group 4\פרויקט 3 שכבות\חיהלה אברמוביץ\bank-api-project\Solid.Service\obj\Debug\net6.0\Solid.Service.csproj.CopyComplete
+Y:\הגשות\דוטנט\‏‏group 4\פרויקט 3 שכבות\חיהלה אברמוביץ\bank-api-project\Solid.Service\obj\Debug\net6.0\Solid.Service.dll
+Y:\הגשות\דוטנט\‏‏group 4\פרויקט 3 שכבות\חיהלה אברמוביץ\bank-api-project\Solid.Service\obj\Debug\net6.0\refint\Solid.Service.dll
+Y:\הגשות\דוטנט\‏‏group 4\פרויקט 3 שכבות\חיהלה אברמוביץ\bank-api-project\Solid.Service\obj\Debug\net6.0\Solid.Service.pdb
+Y:\הגשות\דוטנט\‏‏group 4\פרויקט 3 שכבות\חיהלה אברמוביץ\bank-api-project\Solid.Service\obj\Debug\net6.0\ref\Solid.Service.dll

@@ -19,15 +19,18 @@ builder.Services.AddSwaggerGen();
 
 builder.Services.AddScoped<IBankAcountService, BankAcountService>();
 builder.Services.AddScoped<IBankAcountRepository, BankAcountRepository>();
-builder.Services.AddSingleton<DataBankAcount>();
+builder.Services.AddDbContext<DataContext>();
+//builder.Services.AddSingleton<DataBankAcount>();
 
 builder.Services.AddScoped<ICustomerService, CustomerService>();
 builder.Services.AddScoped<ICustomerRepository, CustomerRepository>();
-builder.Services.AddSingleton<DataCustomer>();
+builder.Services.AddDbContext<DataContext>();
+//builder.Services.AddSingleton<DataCustomer>();
 
 builder.Services.AddScoped<IOfficalBankService, OfficialBankService>();
 builder.Services.AddScoped<IOfficalBankRepository, OfficialBankRepository>();
-builder.Services.AddSingleton<DataOfficalBank>();
+builder.Services.AddDbContext<DataContext>();
+//builder.Services.AddSingleton<DataOfficalBank>();
 
 
 

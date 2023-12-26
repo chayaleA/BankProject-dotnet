@@ -10,16 +10,16 @@ namespace Solid.Data.Repositories
 {
     public class CustomerRepository:ICustomerRepository
     {
-        private readonly DataCustomer _dateCustomer;
+        private readonly DataContext _dateCustomer;
 
-        public CustomerRepository(DataCustomer dateCustomer)
+        public CustomerRepository(DataContext dateCustomer)
         {
             _dateCustomer = dateCustomer;
         }
 
         public List<Customer> GetList()
         {
-            return _dateCustomer.CustomerList;
+            return _dateCustomer.CustomerList.ToList();
         }
     }
 }

@@ -10,16 +10,16 @@ namespace Solid.Data.Repositories
 {
     public class BankAcountRepository : IBankAcountRepository
     {
-        private readonly DataBankAcount _dateBankAcount;
+        private readonly DataContext _dateBankAcount;
 
-        public BankAcountRepository(DataBankAcount dateBankAcount)
+        public BankAcountRepository(DataContext dateBankAcount)
         {
             _dateBankAcount = dateBankAcount;
         }
 
         public List<BankAccount> GetList()
         {
-            return _dateBankAcount.BankAcountsList;
+            return _dateBankAcount.BankAcountsList.ToList();
         }
     }
 }

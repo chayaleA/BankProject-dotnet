@@ -10,16 +10,16 @@ namespace Solid.Data.Repositories
 {
     public class OfficialBankRepository:IOfficalBankRepository
     {
-        private readonly DataOfficalBank _dateOfficialBank;
+        private readonly DataContext _data;
 
-        public OfficialBankRepository(DataOfficalBank dateOfficialBank)
+        public OfficialBankRepository(DataContext dateOfficialBank)
         {
-            _dateOfficialBank = dateOfficialBank;
+            _data = dateOfficialBank;
         }
 
         public List<OfficialBank> GetList()
         {
-            return _dateOfficialBank.OfficialBankList;
+            return _data.OfficialBankList.ToList();
         }
     }
 }

@@ -2,9 +2,8 @@
 {
     public class BankOperation
     {
-        private static int count = 0;
 
-        public int Id { get;  } = ++count;
+        public int Id { get; set; }
         public DateTime Date { get; set; }
 
         public int Sum { get; set; }

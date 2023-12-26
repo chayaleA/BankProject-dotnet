@@ -47,7 +47,7 @@ namespace bank_api_project.Controllers
                 return;
             }
             temp.BankAccountNumber = value.BankAccountNumber;
-            temp.userId = value.userId;
+            temp.Id = value.Id;
             temp.Status = value.Status;
             temp.deposits = value.deposits;
             temp.withdrawals = value.withdrawals;
