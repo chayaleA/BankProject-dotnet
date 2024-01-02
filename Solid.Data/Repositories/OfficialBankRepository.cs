@@ -21,5 +21,36 @@ namespace Solid.Data.Repositories
         {
             return _data.OfficialBankList.ToList();
         }
+
+        public OfficialBank Add(OfficialBank officialBank)
+        {
+            _data.OfficialBankList.Add(officialBank);
+            _data.SaveChanges();
+            return officialBank;
+        }
+
+        public OfficialBank Update(int id, OfficialBank officialBank)
+        {
+            OfficialBank temp = _data.OfficialBankList.Find(id);
+            if (temp == null)
+            {
+                _data.OfficialBankList.Add(officialBank);
+                return null;
+            }
+            temp.Name = officialBank.Name;
+            temp.Salary = officialBank.Salary;
+            temp.Role = officialBank.Role;
+            temp.Phone = officialBank.Phone;
+            _data.SaveChanges();
+            return officialBank;
+        }
+
+        public void Remove(int id)
+        {
+            OfficialBank temp = _data.OfficialBankList.Find(id);
+            if (temp != null)
+                _data.OfficialBankList.Remove(temp);
+            _data.SaveChanges();
+        }
     }
 }

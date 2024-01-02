@@ -10,5 +10,11 @@ namespace Solid.Core.Repositories
     public interface IBankAcountRepository
     {
         List<BankAccount> GetList();
+
+        BankAccount Add(BankAccount bankAccount);
+
+        BankAccount Update(int id, BankAccount value);
+
+        void Remove(int id);
     }
 }

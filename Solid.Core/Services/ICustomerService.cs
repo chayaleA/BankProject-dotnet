@@ -10,5 +10,11 @@ namespace Solid.Core.Services
     public interface ICustomerService
     {
         List<Customer> GetAll();
+
+        Customer Add(Customer customer);
+
+        Customer Update(int id, Customer customer);
+
+        void Remove(int id);
     }
 }

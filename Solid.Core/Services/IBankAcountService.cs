@@ -10,5 +10,11 @@ namespace Solid.Core.Services
     public interface IBankAcountService
     {
         List<BankAccount> GetAll();
+
+        BankAccount Add(BankAccount bankAccount);
+
+        BankAccount Update(int id, BankAccount value);
+
+        void Remove(int id);
     }
 }

@@ -35,34 +35,22 @@ namespace bank_api_project.Controllers
         }
 
         [HttpPost]
-        public void Post([FromBody] OfficialBank value)
+        public ActionResult Post([FromBody] OfficialBank value)
         {
-            listOfficials.GetAll().Add(value);
+            return Ok(listOfficials.Add(value));
         }
 
 
         [HttpPut("{id}")]
-        public void Put(int id, [FromBody] OfficialBank value)
+        public ActionResult Put(int id, [FromBody] OfficialBank value)
         {
-            OfficialBank temp = listOfficials.GetAll().Find(e => e.Id == id);
-            if (temp == null)
-            {
-                listOfficials.GetAll().Add(value);
-                return;
-            }
-            temp.Id = id;
-            temp.Name = value.Name;
-            temp.Salary = value.Salary;
-            temp.Role = value.Role;
-            temp.Phone = value.Phone;
+            return Ok(listOfficials.Update(id, value));
         }
 
         [HttpDelete("{id}")]
         public void Delete(int id)
         {
-            OfficialBank temp = listOfficials.GetAll().Find(e => e.Id == id);
-            if (temp != null)
-                listOfficials.GetAll().Remove(temp);
+            listOfficials.Remove(id);
         }
     }
 }

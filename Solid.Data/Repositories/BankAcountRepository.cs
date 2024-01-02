@@ -17,9 +17,43 @@ namespace Solid.Data.Repositories
             _dateBankAcount = dateBankAcount;
         }
 
+        public BankAccount Add(BankAccount bankAccount)
+        {
+            _dateBankAcount.BankAcountsList.Add(bankAccount);
+            _dateBankAcount.SaveChanges();
+            return bankAccount;
+        }
+        public void Remove(int id)
+        {
+            BankAccount temp = _dateBankAcount.BankAcountsList.Find(id);
+            if (temp != null)
+                _dateBankAcount.BankAcountsList.Remove(temp);
+            _dateBankAcount.SaveChanges();
+        }
+
+        public BankAccount Update(int id,BankAccount bankAccount)
+        {
+            BankAccount temp = _dateBankAcount.BankAcountsList.Find(id);
+            if (temp == null)
+            {
+                _dateBankAcount.BankAcountsList.Add(bankAccount);
+                return null;
+            }
+            temp.BankAccountNumber = bankAccount.BankAccountNumber;
+ 
+            temp.Status = bankAccount.Status;
+            temp.deposits = bankAccount.deposits;
+            temp.withdrawals = bankAccount.withdrawals;
+            temp.Balance = bankAccount.Balance;
+            _dateBankAcount.SaveChanges();
+            return bankAccount;
+        }
+
         public List<BankAccount> GetList()
         {
             return _dateBankAcount.BankAcountsList.ToList();
         }
+
+       
     }
 }

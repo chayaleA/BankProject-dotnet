@@ -30,5 +30,3 @@ Y:\הגשות\דוטנט\‏‏group 4\פרויקט 3 שכבות\חיהלה אב
 Y:\הגשות\דוטנט\‏‏group 4\פרויקט 3 שכבות\חיהלה אברמוביץ\bank-api-project\Solid.Data\obj\Debug\net6.0\Solid.Data.pdb
 Y:\הגשות\דוטנט\‏‏group 4\פרויקט 3 שכבות\חיהלה אברמוביץ\bank-api-project\Solid.Data\obj\Debug\net6.0\Solid.Data.genruntimeconfig.cache
 Y:\הגשות\דוטנט\‏‏group 4\פרויקט 3 שכבות\חיהלה אברמוביץ\bank-api-project\Solid.Data\obj\Debug\net6.0\ref\Solid.Data.dll
-C:\Users\user1\Desktop\חיהלה\תכנות\שנה ב\דוטנט\פרויקט בנק\bank-api-project\Solid.Data\bin\Debug\net6.0\Solid.Data.runtimeconfig.json
-C:\Users\user1\Desktop\חיהלה\תכנות\שנה ב\דוטנט\פרויקט בנק\bank-api-project\Solid.Data\obj\Debug\net6.0\Solid.Data.genruntimeconfig.cache

@@ -18,6 +18,20 @@ namespace Solid.Service
             _customerRepository = customerRepository;
         }
 
+        public Customer Add(Customer customer)
+        {
+            return _customerRepository.Add(customer);
+        }
+
+        public void Remove(int id)
+        {
+            _customerRepository.Remove(id);
+        }
+
+        public Customer Update(int id, Customer customer)
+        {
+           return _customerRepository.Update(id,customer);
+        }
         List<Customer> ICustomerService.GetAll()
         {
             return _customerRepository.GetList();

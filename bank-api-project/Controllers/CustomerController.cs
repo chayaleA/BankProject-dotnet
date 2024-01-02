@@ -32,24 +32,15 @@ namespace bank_api_project.Controllers
         }
 
         [HttpPost]
-        public void Post([FromBody] Customer value)
+        public ActionResult Post([FromBody] Customer value)
         {
-            listCustomer.GetAll().Add(value);
+            return Ok(listCustomer.Add(value));
         }
 
         [HttpPut("{id}")]
-        public void Put(int id, [FromBody] Customer value)
+        public ActionResult Put(int id, [FromBody] Customer value)
         {
-            Customer temp = listCustomer.GetAll().Find(x => x.Id == id);
-            if (temp == null)
-            {
-                listCustomer.GetAll().Add(value);
-                return;
-            }
-            temp.Id = value.Id;
-            temp.Phone = value.Phone;
-            temp.Status = value.Status;
-            temp.BankAccountNumber = value.BankAccountNumber;
+            return Ok(listCustomer.Update(id, value));
         }
 
 
@@ -60,6 +51,12 @@ namespace bank_api_project.Controllers
             if (temp == null)
                 return;
             temp.Status = status;
+        }
+
+        [HttpDelete("{id}")]
+        public void Delete(int id)
+        {
+            listCustomer.Remove(id);
         }
     }
 }

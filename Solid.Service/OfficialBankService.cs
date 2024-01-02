@@ -18,9 +18,24 @@ namespace Solid.Service
             _officialBankRepository = officialBankRepository;
         }
 
+        public OfficialBank Add(OfficialBank officialBank)
+        {
+            return _officialBankRepository.Add(officialBank);
+        }
+
         public List<OfficialBank> GetAll()
         {
             return _officialBankRepository.GetList();
+        }
+
+        public void Remove(int id)
+        {
+            _officialBankRepository.Remove(id);
+        }
+
+        public OfficialBank Update(int id, OfficialBank officialBank)
+        {
+            return _officialBankRepository.Update(id, officialBank);
         }
     }
 }
