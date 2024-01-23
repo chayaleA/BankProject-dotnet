@@ -18,7 +18,8 @@ namespace Solid.Data.Migrations
                     BankAccountNumber = table.Column<int>(type: "int", nullable: false),
                     UserId = table.Column<int>(type: "int", nullable: false),
                     Status = table.Column<int>(type: "int", nullable: false),
-                    Balance = table.Column<int>(type: "int", nullable: false)
+                    Balance = table.Column<int>(type: "int", nullable: false),
+                    
                 },
                 constraints: table =>
                 {

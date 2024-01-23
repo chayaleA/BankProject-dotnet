@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\דוטנט לעלות\\חיהלה אברמוביץ\\bank-api-project\\bank-api-project\\bank-api-project.csproj": {}
+    "C:\\Users\\user1\\Desktop\\חיהלה\\תכנות\\שנה ב\\דוטנט\\פרויקט בנק\\bank-api-project\\bank-api-project\\bank-api-project.csproj": {}
   },
   "projects": {
-    "D:\\דוטנט לעלות\\חיהלה אברמוביץ\\bank-api-project\\bank-api-project\\bank-api-project.csproj": {
+    "C:\\Users\\user1\\Desktop\\חיהלה\\תכנות\\שנה ב\\דוטנט\\פרויקט בנק\\bank-api-project\\bank-api-project\\bank-api-project.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\דוטנט לעלות\\חיהלה אברמוביץ\\bank-api-project\\bank-api-project\\bank-api-project.csproj",
+        "projectUniqueName": "C:\\Users\\user1\\Desktop\\חיהלה\\תכנות\\שנה ב\\דוטנט\\פרויקט בנק\\bank-api-project\\bank-api-project\\bank-api-project.csproj",
         "projectName": "bank-api-project",
-        "projectPath": "D:\\דוטנט לעלות\\חיהלה אברמוביץ\\bank-api-project\\bank-api-project\\bank-api-project.csproj",
+        "projectPath": "C:\\Users\\user1\\Desktop\\חיהלה\\תכנות\\שנה ב\\דוטנט\\פרויקט בנק\\bank-api-project\\bank-api-project\\bank-api-project.csproj",
         "packagesPath": "C:\\Users\\user1\\.nuget\\packages\\",
-        "outputPath": "D:\\דוטנט לעלות\\חיהלה אברמוביץ\\bank-api-project\\bank-api-project\\obj\\",
+        "outputPath": "C:\\Users\\user1\\Desktop\\חיהלה\\תכנות\\שנה ב\\דוטנט\\פרויקט בנק\\bank-api-project\\bank-api-project\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -32,14 +32,14 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\דוטנט לעלות\\חיהלה אברמוביץ\\bank-api-project\\Solid.Core\\Solid.Core.csproj": {
-                "projectPath": "D:\\דוטנט לעלות\\חיהלה אברמוביץ\\bank-api-project\\Solid.Core\\Solid.Core.csproj"
+              "C:\\Users\\user1\\Desktop\\חיהלה\\תכנות\\שנה ב\\דוטנט\\פרויקט בנק\\bank-api-project\\Solid.Core\\Solid.Core.csproj": {
+                "projectPath": "C:\\Users\\user1\\Desktop\\חיהלה\\תכנות\\שנה ב\\דוטנט\\פרויקט בנק\\bank-api-project\\Solid.Core\\Solid.Core.csproj"
               },
-              "D:\\דוטנט לעלות\\חיהלה אברמוביץ\\bank-api-project\\Solid.Data\\Solid.Data.csproj": {
-                "projectPath": "D:\\דוטנט לעלות\\חיהלה אברמוביץ\\bank-api-project\\Solid.Data\\Solid.Data.csproj"
+              "C:\\Users\\user1\\Desktop\\חיהלה\\תכנות\\שנה ב\\דוטנט\\פרויקט בנק\\bank-api-project\\Solid.Data\\Solid.Data.csproj": {
+                "projectPath": "C:\\Users\\user1\\Desktop\\חיהלה\\תכנות\\שנה ב\\דוטנט\\פרויקט בנק\\bank-api-project\\Solid.Data\\Solid.Data.csproj"
               },
-              "D:\\דוטנט לעלות\\חיהלה אברמוביץ\\bank-api-project\\Solid.Service\\Solid.Service.csproj": {
-                "projectPath": "D:\\דוטנט לעלות\\חיהלה אברמוביץ\\bank-api-project\\Solid.Service\\Solid.Service.csproj"
+              "C:\\Users\\user1\\Desktop\\חיהלה\\תכנות\\שנה ב\\דוטנט\\פרויקט בנק\\bank-api-project\\Solid.Service\\Solid.Service.csproj": {
+                "projectPath": "C:\\Users\\user1\\Desktop\\חיהלה\\תכנות\\שנה ב\\דוטנט\\פרויקט בנק\\bank-api-project\\Solid.Service\\Solid.Service.csproj"
               }
             }
           }
@@ -88,14 +88,14 @@
         }
       }
     },
-    "D:\\דוטנט לעלות\\חיהלה אברמוביץ\\bank-api-project\\Solid.Core\\Solid.Core.csproj": {
+    "C:\\Users\\user1\\Desktop\\חיהלה\\תכנות\\שנה ב\\דוטנט\\פרויקט בנק\\bank-api-project\\Solid.Core\\Solid.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\דוטנט לעלות\\חיהלה אברמוביץ\\bank-api-project\\Solid.Core\\Solid.Core.csproj",
+        "projectUniqueName": "C:\\Users\\user1\\Desktop\\חיהלה\\תכנות\\שנה ב\\דוטנט\\פרויקט בנק\\bank-api-project\\Solid.Core\\Solid.Core.csproj",
         "projectName": "Solid.Core",
-        "projectPath": "D:\\דוטנט לעלות\\חיהלה אברמוביץ\\bank-api-project\\Solid.Core\\Solid.Core.csproj",
+        "projectPath": "C:\\Users\\user1\\Desktop\\חיהלה\\תכנות\\שנה ב\\דוטנט\\פרויקט בנק\\bank-api-project\\Solid.Core\\Solid.Core.csproj",
         "packagesPath": "C:\\Users\\user1\\.nuget\\packages\\",
-        "outputPath": "D:\\דוטנט לעלות\\חיהלה אברמוביץ\\bank-api-project\\Solid.Core\\obj\\",
+        "outputPath": "C:\\Users\\user1\\Desktop\\חיהלה\\תכנות\\שנה ב\\דוטנט\\פרויקט בנק\\bank-api-project\\Solid.Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -147,14 +147,14 @@
         }
       }
     },
-    "D:\\דוטנט לעלות\\חיהלה אברמוביץ\\bank-api-project\\Solid.Data\\Solid.Data.csproj": {
+    "C:\\Users\\user1\\Desktop\\חיהלה\\תכנות\\שנה ב\\דוטנט\\פרויקט בנק\\bank-api-project\\Solid.Data\\Solid.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\דוטנט לעלות\\חיהלה אברמוביץ\\bank-api-project\\Solid.Data\\Solid.Data.csproj",
+        "projectUniqueName": "C:\\Users\\user1\\Desktop\\חיהלה\\תכנות\\שנה ב\\דוטנט\\פרויקט בנק\\bank-api-project\\Solid.Data\\Solid.Data.csproj",
         "projectName": "Solid.Data",
-        "projectPath": "D:\\דוטנט לעלות\\חיהלה אברמוביץ\\bank-api-project\\Solid.Data\\Solid.Data.csproj",
+        "projectPath": "C:\\Users\\user1\\Desktop\\חיהלה\\תכנות\\שנה ב\\דוטנט\\פרויקט בנק\\bank-api-project\\Solid.Data\\Solid.Data.csproj",
         "packagesPath": "C:\\Users\\user1\\.nuget\\packages\\",
-        "outputPath": "D:\\דוטנט לעלות\\חיהלה אברמוביץ\\bank-api-project\\Solid.Data\\obj\\",
+        "outputPath": "C:\\Users\\user1\\Desktop\\חיהלה\\תכנות\\שנה ב\\דוטנט\\פרויקט בנק\\bank-api-project\\Solid.Data\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -175,8 +175,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\דוטנט לעלות\\חיהלה אברמוביץ\\bank-api-project\\Solid.Core\\Solid.Core.csproj": {
-                "projectPath": "D:\\דוטנט לעלות\\חיהלה אברמוביץ\\bank-api-project\\Solid.Core\\Solid.Core.csproj"
+              "C:\\Users\\user1\\Desktop\\חיהלה\\תכנות\\שנה ב\\דוטנט\\פרויקט בנק\\bank-api-project\\Solid.Core\\Solid.Core.csproj": {
+                "projectPath": "C:\\Users\\user1\\Desktop\\חיהלה\\תכנות\\שנה ב\\דוטנט\\פרויקט בנק\\bank-api-project\\Solid.Core\\Solid.Core.csproj"
               }
             }
           }
@@ -222,14 +222,14 @@
         }
       }
     },
-    "D:\\דוטנט לעלות\\חיהלה אברמוביץ\\bank-api-project\\Solid.Service\\Solid.Service.csproj": {
+    "C:\\Users\\user1\\Desktop\\חיהלה\\תכנות\\שנה ב\\דוטנט\\פרויקט בנק\\bank-api-project\\Solid.Service\\Solid.Service.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\דוטנט לעלות\\חיהלה אברמוביץ\\bank-api-project\\Solid.Service\\Solid.Service.csproj",
+        "projectUniqueName": "C:\\Users\\user1\\Desktop\\חיהלה\\תכנות\\שנה ב\\דוטנט\\פרויקט בנק\\bank-api-project\\Solid.Service\\Solid.Service.csproj",
         "projectName": "Solid.Service",
-        "projectPath": "D:\\דוטנט לעלות\\חיהלה אברמוביץ\\bank-api-project\\Solid.Service\\Solid.Service.csproj",
+        "projectPath": "C:\\Users\\user1\\Desktop\\חיהלה\\תכנות\\שנה ב\\דוטנט\\פרויקט בנק\\bank-api-project\\Solid.Service\\Solid.Service.csproj",
         "packagesPath": "C:\\Users\\user1\\.nuget\\packages\\",
-        "outputPath": "D:\\דוטנט לעלות\\חיהלה אברמוביץ\\bank-api-project\\Solid.Service\\obj\\",
+        "outputPath": "C:\\Users\\user1\\Desktop\\חיהלה\\תכנות\\שנה ב\\דוטנט\\פרויקט בנק\\bank-api-project\\Solid.Service\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -250,8 +250,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\דוטנט לעלות\\חיהלה אברמוביץ\\bank-api-project\\Solid.Core\\Solid.Core.csproj": {
-                "projectPath": "D:\\דוטנט לעלות\\חיהלה אברמוביץ\\bank-api-project\\Solid.Core\\Solid.Core.csproj"
+              "C:\\Users\\user1\\Desktop\\חיהלה\\תכנות\\שנה ב\\דוטנט\\פרויקט בנק\\bank-api-project\\Solid.Core\\Solid.Core.csproj": {
+                "projectPath": "C:\\Users\\user1\\Desktop\\חיהלה\\תכנות\\שנה ב\\דוטנט\\פרויקט בנק\\bank-api-project\\Solid.Core\\Solid.Core.csproj"
               }
             }
           }

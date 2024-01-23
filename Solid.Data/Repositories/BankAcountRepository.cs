@@ -5,6 +5,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Microsoft.EntityFrameworkCore;
 
 namespace Solid.Data.Repositories
 {
@@ -51,9 +52,7 @@ namespace Solid.Data.Repositories
 
         public List<BankAccount> GetList()
         {
-            return _dateBankAcount.BankAcountsList.ToList();
-        }
-
-       
+            return _dateBankAcount.BankAcountsList.Include(u => u.withdrawals).Include(u => u.deposits).ToList();
+        }    
     }
 }

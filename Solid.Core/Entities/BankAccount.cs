@@ -11,6 +11,7 @@
 
         public int Balance { get;set; }
 
+        public int BankOperationId { get; set; }
         public List<BankOperation> withdrawals { get; set; }
         public List<BankOperation> deposits { get; set; }
     }

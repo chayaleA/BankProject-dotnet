@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "r2LaDHa102iyzybeaGMughxFGVNKc7nG4ArDnheLkNJLAPE3VpV5zP/A3MWpNPfIdh8+Qt53g7mEZdoVkhnbpg==",
+  "dgSpecHash": "6rhGAfUnKpyRvhMjFpl2lTeZAk9v3nWO886fOtBq/Sx0E/Jw79QhSV2OWLr1yJ9B6XcDfekSjmEPcXlkQa3URA==",
   "success": true,
-  "projectFilePath": "D:\\דוטנט לעלות\\חיהלה אברמוביץ\\bank-api-project\\Solid.Data\\Solid.Data.csproj",
+  "projectFilePath": "C:\\Users\\user1\\Desktop\\חיהלה\\תכנות\\שנה ב\\דוטנט\\פרויקט בנק\\bank-api-project\\Solid.Data\\Solid.Data.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\user1\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\user1\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
