@@ -22,14 +22,14 @@ namespace Solid.Data.Repositories
             return _data.OfficialBankList.ToList();
         }
 
-        public OfficialBank Add(OfficialBank officialBank)
+        public async Task<OfficialBank> AddAsync(OfficialBank officialBank)
         {
             _data.OfficialBankList.Add(officialBank);
-            _data.SaveChanges();
+            await _data.SaveChangesAsync();
             return officialBank;
         }
 
-        public OfficialBank Update(int id, OfficialBank officialBank)
+        public async Task<OfficialBank> UpdateAsync(int id, OfficialBank officialBank)
         {
             OfficialBank temp = _data.OfficialBankList.Find(id);
             if (temp == null)
@@ -41,16 +41,16 @@ namespace Solid.Data.Repositories
             temp.Salary = officialBank.Salary;
             temp.Role = officialBank.Role;
             temp.Phone = officialBank.Phone;
-            _data.SaveChanges();
+            await _data.SaveChangesAsync();
             return officialBank;
         }
 
-        public void Remove(int id)
+        public async Task RemoveAsync(int id)
         {
             OfficialBank temp = _data.OfficialBankList.Find(id);
             if (temp != null)
                 _data.OfficialBankList.Remove(temp);
-            _data.SaveChanges();
+            await _data.SaveChangesAsync();
         }
     }
 }

@@ -18,21 +18,21 @@ namespace Solid.Data.Repositories
             _dateBankAcount = dateBankAcount;
         }
 
-        public BankAccount Add(BankAccount bankAccount)
+        public async Task<BankAccount> AddAsync(BankAccount bankAccount)
         {
             _dateBankAcount.BankAcountsList.Add(bankAccount);
-            _dateBankAcount.SaveChanges();
+            await _dateBankAcount.SaveChangesAsync();
             return bankAccount;
         }
-        public void Remove(int id)
+        public async Task RemoveAsync(int id)
         {
             BankAccount temp = _dateBankAcount.BankAcountsList.Find(id);
             if (temp != null)
                 _dateBankAcount.BankAcountsList.Remove(temp);
-            _dateBankAcount.SaveChanges();
+            await _dateBankAcount.SaveChangesAsync();
         }
 
-        public BankAccount Update(int id,BankAccount bankAccount)
+        public async Task<BankAccount> UpdateAsync(int id,BankAccount bankAccount)
         {
             BankAccount temp = _dateBankAcount.BankAcountsList.Find(id);
             if (temp == null)
@@ -46,7 +46,7 @@ namespace Solid.Data.Repositories
             temp.deposits = bankAccount.deposits;
             temp.withdrawals = bankAccount.withdrawals;
             temp.Balance = bankAccount.Balance;
-            _dateBankAcount.SaveChanges();
+            await _dateBankAcount.SaveChangesAsync();
             return bankAccount;
         }
 

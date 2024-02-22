@@ -32,3 +32,37 @@ Y:\הגשות\דוטנט\‏‏group 4\פרויקט 3 שכבות\חיהלה אב
 Y:\הגשות\דוטנט\‏‏group 4\פרויקט 3 שכבות\חיהלה אברמוביץ\bank-api-project\Solid.Data\obj\Debug\net6.0\ref\Solid.Data.dll
 C:\Users\user1\Desktop\חיהלה\תכנות\שנה ב\דוטנט\פרויקט בנק\bank-api-project\Solid.Data\bin\Debug\net6.0\Solid.Data.runtimeconfig.json
 C:\Users\user1\Desktop\חיהלה\תכנות\שנה ב\דוטנט\פרויקט בנק\bank-api-project\Solid.Data\obj\Debug\net6.0\Solid.Data.genruntimeconfig.cache
+Y:\Groups\Group_4\אברמוביץ חיה\BankProject-dotnet-SOLID\Solid.Data\bin\Debug\net6.0\Solid.Data.deps.json
+Y:\Groups\Group_4\אברמוביץ חיה\BankProject-dotnet-SOLID\Solid.Data\bin\Debug\net6.0\Solid.Data.runtimeconfig.json
+Y:\Groups\Group_4\אברמוביץ חיה\BankProject-dotnet-SOLID\Solid.Data\bin\Debug\net6.0\Solid.Data.dll
+Y:\Groups\Group_4\אברמוביץ חיה\BankProject-dotnet-SOLID\Solid.Data\bin\Debug\net6.0\Solid.Data.pdb
+Y:\Groups\Group_4\אברמוביץ חיה\BankProject-dotnet-SOLID\Solid.Data\bin\Debug\net6.0\Solid.Core.dll
+Y:\Groups\Group_4\אברמוביץ חיה\BankProject-dotnet-SOLID\Solid.Data\bin\Debug\net6.0\Solid.Core.pdb
+Y:\Groups\Group_4\אברמוביץ חיה\BankProject-dotnet-SOLID\Solid.Data\obj\Debug\net6.0\Solid.Data.csproj.AssemblyReference.cache
+Y:\Groups\Group_4\אברמוביץ חיה\BankProject-dotnet-SOLID\Solid.Data\obj\Debug\net6.0\Solid.Data.GeneratedMSBuildEditorConfig.editorconfig
+Y:\Groups\Group_4\אברמוביץ חיה\BankProject-dotnet-SOLID\Solid.Data\obj\Debug\net6.0\Solid.Data.AssemblyInfoInputs.cache
+Y:\Groups\Group_4\אברמוביץ חיה\BankProject-dotnet-SOLID\Solid.Data\obj\Debug\net6.0\Solid.Data.AssemblyInfo.cs
+Y:\Groups\Group_4\אברמוביץ חיה\BankProject-dotnet-SOLID\Solid.Data\obj\Debug\net6.0\Solid.Data.csproj.CoreCompileInputs.cache
+Y:\Groups\Group_4\אברמוביץ חיה\BankProject-dotnet-SOLID\Solid.Data\obj\Debug\net6.0\Solid.Data.csproj.CopyComplete
+Y:\Groups\Group_4\אברמוביץ חיה\BankProject-dotnet-SOLID\Solid.Data\obj\Debug\net6.0\Solid.Data.dll
+Y:\Groups\Group_4\אברמוביץ חיה\BankProject-dotnet-SOLID\Solid.Data\obj\Debug\net6.0\refint\Solid.Data.dll
+Y:\Groups\Group_4\אברמוביץ חיה\BankProject-dotnet-SOLID\Solid.Data\obj\Debug\net6.0\Solid.Data.pdb
+Y:\Groups\Group_4\אברמוביץ חיה\BankProject-dotnet-SOLID\Solid.Data\obj\Debug\net6.0\Solid.Data.genruntimeconfig.cache
+Y:\Groups\Group_4\אברמוביץ חיה\BankProject-dotnet-SOLID\Solid.Data\obj\Debug\net6.0\ref\Solid.Data.dll
+E:\BankProject-dotnet-SOLID\Solid.Data\bin\Debug\net6.0\Solid.Data.deps.json
+E:\BankProject-dotnet-SOLID\Solid.Data\bin\Debug\net6.0\Solid.Data.runtimeconfig.json
+E:\BankProject-dotnet-SOLID\Solid.Data\bin\Debug\net6.0\Solid.Data.dll
+E:\BankProject-dotnet-SOLID\Solid.Data\bin\Debug\net6.0\Solid.Data.pdb
+E:\BankProject-dotnet-SOLID\Solid.Data\bin\Debug\net6.0\Solid.Core.dll
+E:\BankProject-dotnet-SOLID\Solid.Data\bin\Debug\net6.0\Solid.Core.pdb
+E:\BankProject-dotnet-SOLID\Solid.Data\obj\Debug\net6.0\Solid.Data.csproj.AssemblyReference.cache
+E:\BankProject-dotnet-SOLID\Solid.Data\obj\Debug\net6.0\Solid.Data.GeneratedMSBuildEditorConfig.editorconfig
+E:\BankProject-dotnet-SOLID\Solid.Data\obj\Debug\net6.0\Solid.Data.AssemblyInfoInputs.cache
+E:\BankProject-dotnet-SOLID\Solid.Data\obj\Debug\net6.0\Solid.Data.AssemblyInfo.cs
+E:\BankProject-dotnet-SOLID\Solid.Data\obj\Debug\net6.0\Solid.Data.csproj.CoreCompileInputs.cache
+E:\BankProject-dotnet-SOLID\Solid.Data\obj\Debug\net6.0\Solid.Data.csproj.CopyComplete
+E:\BankProject-dotnet-SOLID\Solid.Data\obj\Debug\net6.0\Solid.Data.dll
+E:\BankProject-dotnet-SOLID\Solid.Data\obj\Debug\net6.0\refint\Solid.Data.dll
+E:\BankProject-dotnet-SOLID\Solid.Data\obj\Debug\net6.0\Solid.Data.pdb
+E:\BankProject-dotnet-SOLID\Solid.Data\obj\Debug\net6.0\Solid.Data.genruntimeconfig.cache
+E:\BankProject-dotnet-SOLID\Solid.Data\obj\Debug\net6.0\ref\Solid.Data.dll

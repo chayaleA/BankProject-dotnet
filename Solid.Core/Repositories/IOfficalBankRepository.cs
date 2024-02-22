@@ -11,10 +11,10 @@ namespace Solid.Core.Repositories
     {
         List<OfficialBank> GetList();
 
-        OfficialBank Add(OfficialBank officialBank);
+        Task<OfficialBank> AddAsync(OfficialBank officialBank);
 
-        OfficialBank Update(int id,OfficialBank officialBank);
+        Task<OfficialBank> UpdateAsync(int id, OfficialBank officialBank);
 
-        void Remove(int id);
+        Task RemoveAsync(int id);
     }
 }

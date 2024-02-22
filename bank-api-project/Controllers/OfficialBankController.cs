@@ -35,22 +35,22 @@ namespace bank_api_project.Controllers
         }
 
         [HttpPost]
-        public ActionResult Post([FromBody] OfficialBank value)
+        public async Task<ActionResult> Post([FromBody] OfficialBank value)
         {
-            return Ok(listOfficials.Add(value));
+            return Ok( await listOfficials.AddAsync(value));
         }
 
 
         [HttpPut("{id}")]
-        public ActionResult Put(int id, [FromBody] OfficialBank value)
+        public async Task<ActionResult> Put(int id, [FromBody] OfficialBank value)
         {
-            return Ok(listOfficials.Update(id, value));
+            return Ok(await listOfficials.UpdateAsync(id, value));
         }
 
         [HttpDelete("{id}")]
-        public void Delete(int id)
+        public async Task Delete(int id)
         {
-            listOfficials.Remove(id);
+            await listOfficials.RemoveAsync(id);
         }
     }
 }

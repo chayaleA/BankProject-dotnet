@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "6rhGAfUnKpyRvhMjFpl2lTeZAk9v3nWO886fOtBq/Sx0E/Jw79QhSV2OWLr1yJ9B6XcDfekSjmEPcXlkQa3URA==",
+  "dgSpecHash": "WB4Jy+yV0DwjetApMBecvs9XjDDaoh7Ai1M2ac4b0R37l8yHS1HiNeYWHOaIySXeBOm4WCQDF9cl5ASGysgh1A==",
   "success": true,
   "projectFilePath": "C:\\Users\\user1\\Desktop\\חיהלה\\תכנות\\שנה ב\\דוטנט\\פרויקט בנק\\bank-api-project\\Solid.Data\\Solid.Data.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\user1\\.nuget\\packages\\automapper\\13.0.0\\automapper.13.0.0.nupkg.sha512",
     "C:\\Users\\user1\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
-    "C:\\Users\\user1\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
+    "C:\\Users\\user1\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\user1\\.nuget\\packages\\microsoft.data.sqlclient\\2.1.4\\microsoft.data.sqlclient.2.1.4.nupkg.sha512",
     "C:\\Users\\user1\\.nuget\\packages\\microsoft.data.sqlclient.sni.runtime\\2.1.1\\microsoft.data.sqlclient.sni.runtime.2.1.1.nupkg.sha512",
     "C:\\Users\\user1\\.nuget\\packages\\microsoft.entityframeworkcore\\6.0.25\\microsoft.entityframeworkcore.6.0.25.nupkg.sha512",

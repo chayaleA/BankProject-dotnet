@@ -13,22 +13,22 @@ namespace Solid.Service
             _bankAcountRepository = bankAcountRepository;
         }
 
-        public BankAccount Add(BankAccount bankAccount)
+        public async Task<BankAccount> AddAsync(BankAccount bankAccount)
         {
-            return _bankAcountRepository.Add(bankAccount);
+            return await _bankAcountRepository.AddAsync(bankAccount);
         }
-        public BankAccount Update(int id, BankAccount bankAccount)
+        public async Task<BankAccount> UpdateAsync(int id, BankAccount bankAccount)
         {
-            return _bankAcountRepository.Update(id, bankAccount);
+            return await _bankAcountRepository.UpdateAsync(id, bankAccount);
         }
         public List<BankAccount> GetAll()
         {
             return _bankAcountRepository.GetList();
         }
 
-        public void Remove(int id)
+        public async Task RemoveAsync(int id)
         {
-            _bankAcountRepository.Remove(id);
+            await _bankAcountRepository.RemoveAsync(id);
         }
     }
 }

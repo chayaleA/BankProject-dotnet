@@ -36,6 +36,9 @@ namespace Solid.Data.Migrations
                     b.Property<int>("BankAccountNumber")
                         .HasColumnType("int");
 
+                    b.Property<int>("BankOperationId")
+                        .HasColumnType("int");
+
                     b.Property<int>("Status")
                         .HasColumnType("int");
 

@@ -22,14 +22,14 @@ namespace Solid.Data.Repositories
             return _dateCustomer.CustomerList.ToList();
         }
 
-        public Customer Add(Customer customer)
+        public async Task<Customer> AddAsync(Customer customer)
         {
             _dateCustomer.CustomerList.Add(customer);
-            _dateCustomer.SaveChanges();
+            await _dateCustomer.SaveChangesAsync();
             return customer;
         }
 
-        public Customer Update(int id, Customer customer)
+        public async Task<Customer> UpdateAsync(int id, Customer customer)
         {
             Customer temp = _dateCustomer.CustomerList.Find(id);
             if (temp == null)
@@ -40,16 +40,16 @@ namespace Solid.Data.Repositories
             temp.Phone = customer.Phone;
             temp.Status = customer.Status;
             temp.BankAccountNumber = customer.BankAccountNumber;
-            _dateCustomer.SaveChanges();
+            await _dateCustomer.SaveChangesAsync();
             return customer;
         }
 
-        public void Remove(int id)
+        public async Task RemoveAsync(int id)
         {
             Customer temp = _dateCustomer.CustomerList.Find(id);
             if (temp != null)
                 _dateCustomer.CustomerList.Remove(temp);
-            _dateCustomer.SaveChanges();
+            await _dateCustomer.SaveChangesAsync();
         }
     }
 }

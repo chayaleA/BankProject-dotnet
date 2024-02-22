@@ -1,3 +1,5 @@
+using AutoMapper;
+using Solid.Core.Mapping;
 using Solid.Core.Repositories;
 using Solid.Core.Services;
 using Solid.Data;
@@ -20,8 +22,8 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 
-
-
+//builder.Services.AddSingleton<Mapper>();
+builder.Services.AddAutoMapper(typeof(MappingProfile));
 
 builder.Services.AddScoped<IBankAcountService, BankAcountService>();
 builder.Services.AddScoped<IBankAcountRepository, BankAcountRepository>();

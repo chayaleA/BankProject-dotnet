@@ -11,10 +11,10 @@ namespace Solid.Core.Services
     {
         List<Customer> GetAll();
 
-        Customer Add(Customer customer);
+        Task<Customer> AddAsync(Customer customer);
 
-        Customer Update(int id, Customer customer);
+        Task<Customer> UpdateAsync(int id, Customer customer);
 
-        void Remove(int id);
+        Task RemoveAsync(int id);
     }
 }

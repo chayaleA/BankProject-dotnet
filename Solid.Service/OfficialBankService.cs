@@ -18,9 +18,9 @@ namespace Solid.Service
             _officialBankRepository = officialBankRepository;
         }
 
-        public OfficialBank Add(OfficialBank officialBank)
+        public async Task<OfficialBank> AddAsync(OfficialBank officialBank)
         {
-            return _officialBankRepository.Add(officialBank);
+            return await _officialBankRepository.AddAsync(officialBank);
         }
 
         public List<OfficialBank> GetAll()
@@ -28,14 +28,14 @@ namespace Solid.Service
             return _officialBankRepository.GetList();
         }
 
-        public void Remove(int id)
+        public async Task RemoveAsync(int id)
         {
-            _officialBankRepository.Remove(id);
+            await _officialBankRepository.RemoveAsync(id);
         }
 
-        public OfficialBank Update(int id, OfficialBank officialBank)
+        public async Task<OfficialBank> UpdateAsync(int id, OfficialBank officialBank)
         {
-            return _officialBankRepository.Update(id, officialBank);
+            return await _officialBankRepository.UpdateAsync(id, officialBank);
         }
     }
 }

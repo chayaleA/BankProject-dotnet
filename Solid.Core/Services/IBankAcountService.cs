@@ -11,10 +11,10 @@ namespace Solid.Core.Services
     {
         List<BankAccount> GetAll();
 
-        BankAccount Add(BankAccount bankAccount);
+        Task<BankAccount> AddAsync(BankAccount bankAccount);
 
-        BankAccount Update(int id, BankAccount value);
+        Task<BankAccount> UpdateAsync(int id, BankAccount bankAccount);
 
-        void Remove(int id);
+        Task RemoveAsync(int id);
     }
 }

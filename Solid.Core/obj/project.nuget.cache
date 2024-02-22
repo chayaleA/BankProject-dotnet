@@ -1,8 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "MhKPxToya22sy6nG/1G0ftvX5yoAfJtTl3rmgMxRjN/Ro3uNO575cToVqZOitkD2YKYUY6Ez+jkzOqyA4XXeRA==",
+  "dgSpecHash": "/GjYYGjgFFjnDtfckx4hsRVN08+4IHHaAtXApqtDBNGz3ohN3bu4eHszwGkA5/LKkozpcvCYTGOGH1jZhvxBPA==",
   "success": true,
   "projectFilePath": "C:\\Users\\user1\\Desktop\\חיהלה\\תכנות\\שנה ב\\דוטנט\\פרויקט בנק\\bank-api-project\\Solid.Core\\Solid.Core.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\user1\\.nuget\\packages\\automapper\\13.0.0\\automapper.13.0.0.nupkg.sha512",
+    "C:\\Users\\user1\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
+    "C:\\Users\\user1\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\user1\\.nuget\\packages\\microsoft.extensions.options\\6.0.0\\microsoft.extensions.options.6.0.0.nupkg.sha512",
+    "C:\\Users\\user1\\.nuget\\packages\\microsoft.extensions.primitives\\6.0.0\\microsoft.extensions.primitives.6.0.0.nupkg.sha512",
+    "C:\\Users\\user1\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+  ],
   "logs": []
 }

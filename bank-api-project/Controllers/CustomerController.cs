@@ -32,15 +32,15 @@ namespace bank_api_project.Controllers
         }
 
         [HttpPost]
-        public ActionResult Post([FromBody] Customer value)
+        public async Task<ActionResult> Post([FromBody] Customer value)
         {
-            return Ok(listCustomer.Add(value));
+            return Ok(await listCustomer.AddAsync(value));
         }
 
         [HttpPut("{id}")]
-        public ActionResult Put(int id, [FromBody] Customer value)
+        public async Task<ActionResult> Put(int id, [FromBody] Customer value)
         {
-            return Ok(listCustomer.Update(id, value));
+            return Ok(await listCustomer.UpdateAsync(id, value));
         }
 
 
@@ -54,9 +54,9 @@ namespace bank_api_project.Controllers
         }
 
         [HttpDelete("{id}")]
-        public void Delete(int id)
+        public async Task DeleteAsync(int id)
         {
-            listCustomer.Remove(id);
+            listCustomer.RemoveAsync(id);
         }
     }
 }
