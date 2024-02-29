@@ -9,7 +9,7 @@ namespace Solid.Core.Services
 {
     public interface ICustomerService
     {
-        List<Customer> GetAll();
+        Task<List<Customer>> GetAllAsync();
 
         Task<Customer> AddAsync(Customer customer);
 

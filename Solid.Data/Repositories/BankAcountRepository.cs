@@ -50,9 +50,9 @@ namespace Solid.Data.Repositories
             return bankAccount;
         }
 
-        public List<BankAccount> GetList()
+        public async Task<List<BankAccount>> GetListAsync()
         {
-            return _dateBankAcount.BankAcountsList.Include(u => u.withdrawals).Include(u => u.deposits).ToList();
+            return await _dateBankAcount.BankAcountsList.Include(u => u.withdrawals).Include(u => u.deposits).ToListAsync();
         }    
     }
 }

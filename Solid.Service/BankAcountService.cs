@@ -21,9 +21,9 @@ namespace Solid.Service
         {
             return await _bankAcountRepository.UpdateAsync(id, bankAccount);
         }
-        public List<BankAccount> GetAll()
+        public async Task<List<BankAccount>> GetAllAsync()
         {
-            return _bankAcountRepository.GetList();
+            return await _bankAcountRepository.GetListAsync();
         }
 
         public async Task RemoveAsync(int id)

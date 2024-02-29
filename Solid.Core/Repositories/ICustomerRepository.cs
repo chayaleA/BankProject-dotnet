@@ -9,7 +9,7 @@ namespace Solid.Core.Repositories
 {
     public interface ICustomerRepository
     {
-        List<Customer> GetList();
+        Task<List<Customer>> GetListAsync();
 
         Task<Customer> AddAsync(Customer customer);
 

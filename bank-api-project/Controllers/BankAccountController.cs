@@ -21,17 +21,20 @@ namespace bank_api_project.Controllers
             _mapper = mapper;
         }
         [HttpGet]
-        public ActionResult<IEnumerable<BankAccount>> Get()
+        public async Task<ActionResult<IEnumerable<BankAccount>>> Get()
         {
-            var list = ListBankAccounts.GetAll();
+            Console.WriteLine("BankAccountController.get start :: " + HttpContext.Items["guid"]);
+            var list = await ListBankAccounts.GetAllAsync();
             var listDto = _mapper.Map<IEnumerable<BankAcountDto>>(list);
+            Console.WriteLine("BankAccountController.get end :: " + HttpContext.Items["guid"]);
             return Ok(listDto);
         }
 
         [HttpGet("{id}")]
-        public ActionResult<BankAccount> Get(int id, int? balance, Status?status, int? UserId)
+        public async Task<ActionResult<BankAccount>> Get(int id, int? balance, Status?status, int? UserId)
         {
-            var temp = ListBankAccounts.GetAll().Find(e => e.BankAccountNumber == id);
+            var temp1 = await ListBankAccounts.GetAllAsync();
+            var temp = temp1.Find(e => e.BankAccountNumber == id);
 
            // var bankAcountDto = _mapper.Map<BankAcountDto>(temp);
             if(temp== null)
@@ -66,9 +69,10 @@ namespace bank_api_project.Controllers
         }
 
         [HttpPut("{id}/Status")]
-        public void Put(int id, [FromBody] Status status)
+        public async Task Put(int id, [FromBody] Status status)
         {
-            BankAccount temp = ListBankAccounts.GetAll().Find(x => x.BankAccountNumber == id);
+            var list = await ListBankAccounts.GetAllAsync();
+            BankAccount temp = list.Find(x => x.BankAccountNumber == id);
             if (temp == null)
                 return;
             temp.Status = status;

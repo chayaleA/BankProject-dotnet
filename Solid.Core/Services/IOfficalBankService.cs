@@ -9,7 +9,7 @@ namespace Solid.Core.Services
 {
     public interface IOfficalBankService
     {
-        List<OfficialBank> GetAll();
+        Task<List<OfficialBank>> GetAllAsync();
 
         Task<OfficialBank> AddAsync(OfficialBank officialBank);
 

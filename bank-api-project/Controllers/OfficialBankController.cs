@@ -20,15 +20,17 @@ namespace bank_api_project.Controllers
         }
 
         [HttpGet]
-        public IEnumerable<OfficialBank> Get()
+        public async Task<IEnumerable<OfficialBank>> Get()
         {
-            return listOfficials.GetAll();
+            Console.WriteLine("OfficialBankController.get start :: " + HttpContext.Items["guid"]);
+            return await listOfficials.GetAllAsync();
         }
 
         [HttpGet("{id}")]
-        public ActionResult<OfficialBank> Get(int id)
+        public async Task<ActionResult<OfficialBank>> Get(int id)
         {
-            OfficialBank temp = listOfficials.GetAll().Find(e => e.Id == id);
+            var list = await listOfficials.GetAllAsync();
+            OfficialBank temp = list.Find(e => e.Id == id);
             if (temp == null)
                 return NotFound();
             return temp;

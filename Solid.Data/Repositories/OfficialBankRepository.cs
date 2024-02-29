@@ -1,4 +1,5 @@
 ﻿using bank_api_project;
+using Microsoft.EntityFrameworkCore;
 using Solid.Core.Repositories;
 using System;
 using System.Collections.Generic;
@@ -17,9 +18,9 @@ namespace Solid.Data.Repositories
             _data = dateOfficialBank;
         }
 
-        public List<OfficialBank> GetList()
+        public async Task<List<OfficialBank>> GetListAsync()
         {
-            return _data.OfficialBankList.ToList();
+            return await _data.OfficialBankList.ToListAsync();
         }
 
         public async Task<OfficialBank> AddAsync(OfficialBank officialBank)

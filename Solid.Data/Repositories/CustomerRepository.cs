@@ -1,4 +1,5 @@
 ﻿using bank_api_project;
+using Microsoft.EntityFrameworkCore;
 using Solid.Core.Repositories;
 using System;
 using System.Collections.Generic;
@@ -17,9 +18,9 @@ namespace Solid.Data.Repositories
             _dateCustomer = dateCustomer;
         }
 
-        public List<Customer> GetList()
+        public async Task<List<Customer>> GetListAsync()
         {
-            return _dateCustomer.CustomerList.ToList();
+            return await _dateCustomer.CustomerList.ToListAsync();
         }
 
         public async Task<Customer> AddAsync(Customer customer)

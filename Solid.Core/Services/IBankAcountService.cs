@@ -9,7 +9,7 @@ namespace Solid.Core.Services
 {
     public interface IBankAcountService
     {
-        List<BankAccount> GetAll();
+        Task<List<BankAccount>> GetAllAsync();
 
         Task<BankAccount> AddAsync(BankAccount bankAccount);
 

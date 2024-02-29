@@ -1,4 +1,5 @@
 using AutoMapper;
+using bank_api_project.Middlewares;
 using Solid.Core.Mapping;
 using Solid.Core.Repositories;
 using Solid.Core.Services;
@@ -66,6 +67,10 @@ app.UseAuthorization();
 
 
 app.UseCors("MyPolicy");
+
+app.UseTrack();
+//app.UseMiddleware<TrackMiddleware>();
+
 
 app.MapControllers();
 

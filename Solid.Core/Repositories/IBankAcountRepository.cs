@@ -9,7 +9,7 @@ namespace Solid.Core.Repositories
 {
     public interface IBankAcountRepository
     {
-        List<BankAccount> GetList();
+        Task<List<BankAccount>> GetListAsync();
 
         Task<BankAccount> AddAsync(BankAccount bankAccount);
 

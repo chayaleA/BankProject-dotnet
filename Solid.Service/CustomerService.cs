@@ -32,9 +32,9 @@ namespace Solid.Service
         {
            return await _customerRepository.UpdateAsync(id,customer);
         }
-        List<Customer> ICustomerService.GetAll()
+        async Task<List<Customer>> ICustomerService.GetAllAsync()
         {
-            return _customerRepository.GetList();
+            return await _customerRepository.GetListAsync();
         }
     }
 }

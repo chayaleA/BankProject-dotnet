@@ -17,15 +17,17 @@ namespace bank_api_project.Controllers
         }
 
         [HttpGet]
-        public IEnumerable<Customer> Get()
+        public async Task<IEnumerable<Customer>> Get()
         {
-            return listCustomer.GetAll();
+            Console.WriteLine("CustomerController.get start :: " + HttpContext.Items["guid"]);
+            return await listCustomer.GetAllAsync();
         }
 
         [HttpGet("{id}")]
-        public ActionResult<Customer> Get(int id)
+        public async Task<ActionResult<Customer>> Get(int id)
         {
-            Customer temp = listCustomer.GetAll().Find(x => x.Id == id);
+            var list = await listCustomer.GetAllAsync();
+            Customer temp = list.Find(x => x.Id == id);
             if(temp == null)
                 return NotFound();
             return temp;
@@ -45,9 +47,10 @@ namespace bank_api_project.Controllers
 
 
         [HttpPut("{id}/Status")]
-        public void Put(int id, [FromBody] Status status)
+        public async Task Put(int id, [FromBody] Status status)
         {
-            Customer temp = listCustomer.GetAll().Find(x => x.Id == id);
+            var list = await listCustomer.GetAllAsync();
+            Customer temp = list.Find(x => x.Id == id);
             if (temp == null)
                 return;
             temp.Status = status;
