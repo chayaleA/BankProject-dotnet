@@ -1,4 +1,5 @@
 ﻿using AutoMapper;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Solid.Core.DTOs;
 using Solid.Core.Services;
@@ -9,6 +10,12 @@ namespace bank_api_project.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
+    [Authorize]
+    public class UsersController : ControllerBase
+    {
+        //...
+    }
+
     public class BankAccountController : ControllerBase
     {
         private readonly IBankAcountService ListBankAccounts;

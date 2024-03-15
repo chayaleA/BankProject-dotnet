@@ -287,3 +287,5 @@ E:\BankProject-dotnet-SOLID\bank-api-project\obj\Debug\net6.0\bank-api-project.p
 E:\BankProject-dotnet-SOLID\bank-api-project\obj\Debug\net6.0\bank-api-project.genruntimeconfig.cache
 E:\BankProject-dotnet-SOLID\bank-api-project\obj\Debug\net6.0\ref\bank-api-project.dll
 C:\Users\user1\Desktop\חיהלה\תכנות\שנה ב\דוטנט\פרויקט בנק\bank-api-project\bank-api-project\bin\Debug\net6.0\AutoMapper.dll
+C:\Users\user1\Desktop\חיהלה\תכנות\שנה ב\דוטנט\פרויקט בנק\bank-api-project\bank-api-project\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\user1\Desktop\חיהלה\תכנות\שנה ב\דוטנט\פרויקט בנק\bank-api-project\bank-api-project\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll

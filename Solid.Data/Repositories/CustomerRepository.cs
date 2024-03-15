@@ -52,5 +52,10 @@ namespace Solid.Data.Repositories
                 _dateCustomer.CustomerList.Remove(temp);
             await _dateCustomer.SaveChangesAsync();
         }
+
+        public Customer GetByCustomerNameAndPassword(string customerName, string password)
+        {
+            return _dateCustomer.CustomerList.FirstOrDefault(c => c.Name == customerName && c.Phone == password);
+        }
     }
 }

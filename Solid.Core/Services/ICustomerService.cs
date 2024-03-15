@@ -16,5 +16,7 @@ namespace Solid.Core.Services
         Task<Customer> UpdateAsync(int id, Customer customer);
 
         Task RemoveAsync(int id);
+
+        Customer GetByCustomerNameAndPassword(string customerName, string customerPassword);
     }
 }

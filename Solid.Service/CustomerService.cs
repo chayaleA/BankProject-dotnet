@@ -36,5 +36,10 @@ namespace Solid.Service
         {
             return await _customerRepository.GetListAsync();
         }
+
+        public Customer GetByCustomerNameAndPassword(string customerName, string customerPassword)
+        {
+            return _customerRepository.GetByCustomerNameAndPassword(customerName, customerPassword);
+        }
     }
 }

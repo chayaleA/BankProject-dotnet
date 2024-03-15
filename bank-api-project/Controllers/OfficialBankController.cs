@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Identity;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Solid.Core.Services;
 using System.ComponentModel.DataAnnotations;
@@ -9,6 +10,8 @@ namespace bank_api_project.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
+    [Authorize]
+
     public class OfficialBankController : ControllerBase
     {
 
